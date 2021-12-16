@@ -901,6 +901,30 @@ class PlayState extends MusicBeatState
 		add(iconP2);
 		reloadHealthBarColors();
 
+         var creditTxt:FlxText = new FlxText(4,healthBarBG.y + 20,0,("Port by poky.2017 yo cuándo"), 24); 
+
+creditTxt.scrollFactor.set(); 
+
+creditTxt.setFormat("VCR OSD Mono", 24, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK); 
+
+creditTxt.borderColor = FlxColor.BLACK; 
+
+creditTxt.borderSize = 3; 
+
+creditTxt.borderStyle = FlxTextBorderStyle.OUTLINE; 
+
+add(creditTxt);
+
+RAW Paste Data
+
+create new paste  /  syntax languages  /  archive  /  faq  /  tools  /  night mode  /  api  /  scraping api  /  news  /  pro
+privacy statement  /  cookies policy  /  terms of serviceupdated  /  security disclosure  /  dmca  /  report abuse  /  contact
+
+We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the Cookies Policy.  OK, I Understand
+
+
+
+
 		scoreTxt = new FlxText(0, healthBarBG.y + 36, FlxG.width, "", 20);
 		scoreTxt.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		scoreTxt.scrollFactor.set();
